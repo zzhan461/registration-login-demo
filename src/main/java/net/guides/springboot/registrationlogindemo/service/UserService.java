@@ -11,4 +11,6 @@ public interface UserService {
     User findByEmail(String email);
 
     List<UserDto> findAllUsers();
+
+	void delete(User user);
 }

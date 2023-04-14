@@ -98,6 +98,12 @@ public class User {
     {
         this.name = name;
     }
+    public void deleteUser(User user) {
+    	   user.firstName = null;
+           user.lastName = null;
+           user.email = null;
+           user.password = null;
+    }
 
     @Override
     public String toString() {
